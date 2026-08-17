@@ -4,7 +4,7 @@
     "type": "module",
     "scripts": {
     "dev": "vite",
-    "build": "echo 'Bypass Build'"
+    "build": "vite"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
