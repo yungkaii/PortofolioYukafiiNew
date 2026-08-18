@@ -110,6 +110,31 @@
 .reveal-delay-300 { transition-delay: 300ms; }
 .reveal-delay-400 { transition-delay: 400ms; }
 
+/* INFINITE MARQUEE ANIMATION */
+.marquee-track {
+    display: flex;
+    width: max-content;
+    /* Durasi 30s memastikan animasi terasa premium, tidak terlalu cepat/lambat */
+    animation: scrollMarquee 30s linear infinite;
+    will-change: transform; /* Memberitahu GPU untuk mengoptimalkan layer ini */
+}
+
+/* Optional: Pause animasi saat di-hover (Sesuai permintaan) */
+.marquee-container:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+@keyframes scrollMarquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Menggeser tepat -50% dari total lebar. Karena kita menggunakan 4 grup duplikat, ini akan menciptakan loop yang 100% seamless tanpa patah */
+        transform: translateX(-50%);
+    }
+}
+
+
     </style>
 </head>
 <body class="antialiased font-sans selection:bg-accent-cyan selection:text-bg-main">

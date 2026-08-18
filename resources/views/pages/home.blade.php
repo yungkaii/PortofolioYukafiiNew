@@ -72,19 +72,66 @@
     </div>
 </section>
 
-<!-- Infinite Marquee Section -->
-<div class="w-full border-y border-bg-border bg-bg-alt py-4 marquee-container font-mono text-xs text-text-mute uppercase tracking-widest interactable view-project">
-    <div class="marquee-content flex items-center gap-12">
-        <span>LARAVEL ARCHITECTURE</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>UI/UX DESIGN</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>PHP BACKEND</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>RESPONSIVE FRONTEND</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>DATABASE MANAGEMENT</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>LARAVEL ARCHITECTURE</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>UI/UX DESIGN</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>PHP BACKEND</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>RESPONSIVE FRONTEND</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
-        <span>DATABASE MANAGEMENT</span> <span><i data-lucide="asterisk" class="w-3 h-3 text-accent-cyan"></i></span>
+<!-- MARQUEE SECTION -->
+<div class="marquee-container group relative flex w-full cursor-default overflow-hidden border-y border-bg-border bg-bg-main py-5">
+    <div class="marquee-track">
+        
+        <!-- GRUP 1 -->
+        <div class="flex min-w-max items-center justify-around gap-8 px-4">
+            <span class="font-mono text-xs tracking-widest text-text-dim">LARAVEL ARCHITECTURE</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">UI/UX DESIGN</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">PHP BACKEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">RESPONSIVE FRONTEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">DATABASE MANAGEMENT</span>
+            <span class="font-bold text-accent-cyan">*</span>
+        </div>
+
+        <!-- GRUP 2 (Duplikat) -->
+        <div class="flex min-w-max items-center justify-around gap-8 px-4">
+            <span class="font-mono text-xs tracking-widest text-text-dim">LARAVEL ARCHITECTURE</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">UI/UX DESIGN</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">PHP BACKEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">RESPONSIVE FRONTEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">DATABASE MANAGEMENT</span>
+            <span class="font-bold text-accent-cyan">*</span>
+        </div>
+
+        <!-- GRUP 3 (Duplikat untuk layar Ultra-wide/4K agar tidak kosong) -->
+        <div class="flex min-w-max items-center justify-around gap-8 px-4">
+            <span class="font-mono text-xs tracking-widest text-text-dim">LARAVEL ARCHITECTURE</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">UI/UX DESIGN</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">PHP BACKEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">RESPONSIVE FRONTEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">DATABASE MANAGEMENT</span>
+            <span class="font-bold text-accent-cyan">*</span>
+        </div>
+
+        <!-- GRUP 4 (Duplikat penutup Seamless Loop) -->
+        <div class="flex min-w-max items-center justify-around gap-8 px-4">
+            <span class="font-mono text-xs tracking-widest text-text-dim">LARAVEL ARCHITECTURE</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">UI/UX DESIGN</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">PHP BACKEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">RESPONSIVE FRONTEND</span>
+            <span class="font-bold text-accent-cyan">*</span>
+            <span class="font-mono text-xs tracking-widest text-text-dim">DATABASE MANAGEMENT</span>
+            <span class="font-bold text-accent-cyan">*</span>
+        </div>
+
     </div>
 </div>
 
